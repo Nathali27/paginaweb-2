@@ -1,0 +1,471 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+header ul li{
+    margin: 10px;
+        
+}
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .product-title {
+            border: 2px solid transparent;
+            padding: 10px;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        body{   
+        background-color: #f8f9fa; /* Fondo claro para los bordes */
+        margin: 0;
+        padding: 0;
+    }
+        .product-title:hover {
+            color: #fff;
+            border-color: #ff0000; /* Borde rojo */
+            background-color: #ff0000; /* Fondo rojo */
+        }
+
+        .product-description {
+            color: #ffc107; /* Color amarillo */
+        }
+    
+
+img{
+    width: 150px;
+}
+
+h1{
+    font-size: 24px;
+    color: rgb(246, 77, 69);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 24px;
+    color: rgb(246, 77, 69);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 24px;
+    color: rgb(237, 166, 34);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 16px;
+    color: rgb(103, 103, 203);
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img{
+    border-radius: 50%;
+
+}
+
+.caja p{
+    font-size: 15px;
+}
+
+  .img-small {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de zoom */
+    box-shadow: 0 4px 8px rgba(39, 37, 37, 0.2); /* Añadir sombra al hacer zoom */
+}
+
+.img-small {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.img-small:hover {
+    transform: scale(1.1); /* Efecto de zoom adicional en la imagen */
+}
+
+.price {
+    font-size: 18px;
+    color: #e70023;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de zoom */
+    box-shadow: 0 4px 8px rgb(224, 41, 188); /* Añadir sombra al hacer zoom */
+}
+
+.img-small {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.img-small:hover {
+    transform: scale(1.1); /* Efecto de zoom adicional en la imagen */
+}
+
+.price {
+    font-size: 18px;
+    color: #ba1f1f;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn-order {
+    background-color: #16efff; /* Color amarillo */
+    color: #09b6ea; /* Texto en negro */
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-order:hover {
+    background-color: #ee8fbe; /* Amarillo más oscuro al pasar el ratón */
+}
+
+.btn-secondary {
+    background-color: #7ffffd; /* Color gris para el carrito */
+    color: #fff;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Gris más oscuro al pasar el ratón */
+}
+
+.cart-summary {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-link {
+    background-color: #ff0707; /* Color amarillo */
+    color: #f50000; /* Texto en negro */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer-link:hover {
+    background-color: #98eef1; /* Amarillo más oscuro al pasar el ratón */
+    transform: scale(1.05); /* Efecto de zoom */
+    box-shadow: 0 4px 8px rgba(236, 0, 0, 0.2); /* Añadir sombra */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h5 {
+    font-size: 24px;
+    color: #79c3f1;
+    border: 2px solid #3fd2b9d0;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+
+h5:hover {
+    color: #c52bfd;
+    background-color: #85efdf;
+}
+
+h5 {
+    color: #7b63f1; /* Letra blanca */
+    background-color: #ea5d8e; /* Fondo rosado */
+    padding: 10px;
+    border: 2px solid transparent;
+}
+
+p {
+    font-size: 16px;
+    color: #ffffff; /* Letra blanca */
+}
+
+p {
+    font-size: 16px;
+    color: #7b1a59;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.caja {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.caja:hover {
+    transform: scale(1.05);
+}
+
+.caja img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.price {
+    font-size: 18px;
+    color: #ea1491;
+    margin: 10px 0;
+}
+
+.btn-pedir {
+    background-color: rgb(211, 145, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-pedir:hover {
+    background-color: rgb(195, 149, 241);
+}
+
+.btn-pedir img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.footer-section {
+    background-color: #a9c0f4;
+    color: #ffffff;
+    padding: 40px 0;
+    margin-top: 40px;
+}
+
+.footer-section h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f14c9f;
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.review p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.stars {
+    color: #da07ff;
+    font-size: 16px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: #fdfdfd;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ff1975;
+}
+
+.nav-item:hover .nav-link {
+    color: #eb678f !important;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+/*Para ajustar el tamaño del botón "Agregar al Carrito" */
+.btn-pedir {
+    font-size: 0.84rem;  /* Tamaño de fuente más pequeño */
+    padding: 5px 10px;  /* Relleno más pequeño */
+}
+
+/* Para alinear el ícono del carrito, el total y el botón "Pedir" en línea */
+.d-flex .fas.fa-cart-plus {
+    font-size: 1.2rem;  /* Tamaño del ícono */
+    color: #fc1ccf;  /* Color del ícono */
+}
+
+#total-pastelitos {
+    font-weight: bold;  /* Para hacer el total más destacado */
+}
+
+/* Para ajustar el tamaño del botón "Pedir" */
+.btn-warning.btn-sm {
+    padding: px 10px;  /* Para un relleno más pequeño */
+    font-size: 0.85rem;  /* Para un tamaño de fuente más pequeño */
+}
+
+/* Ajustar el ancho de las tarjetas */
+.card {
+    width: 300px; /* Puedes ajustar este valor según tus necesidades */
+    margin: 15px auto; /* Centrar las tarjetas horizontalmente */
+}
+
+/* Ajustar el tamaño de las imágenes dentro de las tarjetas */
+.card-img-top {
+    width: 100%;
+    height: auto;
+    
+    }
+
+     /* Colores de los botones */
+     .btn-agregar-carrito {
+        background-color: #FFC0CB; /* Rosado pastel */
+        border-color: #FFC0CB;
+        color: #fff;
+    }
+
+    .btn-pedir {
+        background-color: #D8BFD8; /* Morado pastel */
+        border-color: #D8BFD8;
+        color: #fff;
+    }
+
+    /* Ajustar el largo de la página */
+    body {
+        min-height: 150vh; /* Incrementa este valor para más largo */
+        background-color: #f9f9f9; /* Color de fondo suave */
+    }
+
+    .card {
+        width: 350px; /* Ajusta este valor según el ancho deseado */
+        margin: 25px auto; /* Centra las tarjetas y añade espacio vertical */
+    }
+
+    /* Colores de los botones */
+.btn-agregar {
+    background-color: #5cefef !important; /* Rosado pastel */
+    border-color: #fb66db !important;
+    color: #ff4076 !important;
+}
+
+.btnbtn-warning btn-sm{
+    background-color: #8daef7 !important; /* Morado pastel */
+    border-color: #e7a9a9  !important;
+    color: #fff !important;
+}
+
+
+
+/* Botón "Pedir" */
+ .btn-pedir {
+    background-color: #d2a2d2; /* Color morado pastel por defecto */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Texto en blanco */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+/* Definir variables CSS para colores */
+:root {
+    --btn-pedir-bg-color: #bd99e4; /* Color morado pastel por defecto */
+    --btn-pedir-bg-color-hover: #C5A1C5; /* Color al hacer hover */
+    --btn-pedir-text-color: #fff; /* Color del texto por defecto */
+    --btn-pedir-border-color: none; /* Color del borde */
+}
+
+/* Estilo del botón "Pedir" */
+.btn-pedir {
+    background-color: var(--btn-pedir-bg-color); /* Usar variable para el color de fondo */
+    border: var(--btn-pedir-border-color); /* Usar variable para el borde */
+    color: var(--btn-pedir-text-color); /* Usar variable para el color del texto */
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover del botón "Pedir" */
+.btn-pedir:hover {
+    background-color: var(--btn-pedir-bg-color-hover); /* Usar variable para el color de fondo al hacer hover */
+    transform: scale(1.05); /* Efecto de zoom */
+}
+
+
